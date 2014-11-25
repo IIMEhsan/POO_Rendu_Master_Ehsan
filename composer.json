@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "IIMEhsan\\Rendu_Master_POO\\": "src",
+            "Tests\\IIMEhsan\\Rendu_Master_POO\\": "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
